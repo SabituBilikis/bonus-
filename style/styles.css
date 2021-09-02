@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+.head p {
+
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px;
+    text-align: center;
+    
+}
+.authlayout {
+ 
+    width: 100%;
+    display: flex;
+    gap: 5%;
+ 
+       
+    
+}
+
+
+.image-section {
+    background: url(../Image/pexels-andres-ayrton-6578392\ 2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 40%;
+    height: 100vh;
+ 
+    
+}
+.text-section {
+    width: 50%;
+    text-align: left;
+    margin: 60px;
+}
+.text-section h1 {
+    text-align: center;
+    font-size: 40px;
+    
+}
+.text-section .empty {
+    border: 4px solid #D89616;
+    width: 67.5px;
+    margin-left: 300px;
+    margin-right: 400px;
+    align-content: center;
+
+    
+  
+}
+
+.text-section p {
+    text-align: left;
+    font-size: 16px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.middle {
+  width: 60%;
+  border-color: 1px solid white;
+  box-shadow: 0 4px 8px 0 white;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+.middle h2 {
+   font-size: 40px;
+   margin-bottom:20px;
+}
+
+.input-box input {
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    margin-bottom: 25px;
+}
+.textarea-section textarea {
+    width: 100%;
+}
+.button-section {
+    display: flex;
+    justify-content: flex-end;
+}
+.button-section button {
+    background: #3E53C3;
+    padding: 8px 40px;
+    margin: 10px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+   
+    border :none;
+    outline:none;
+    border-radius: 8px;
+}
