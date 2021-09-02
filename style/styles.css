@@ -60,11 +60,13 @@
 }
 
 .middle {
-  width: 60%;
-  border-color: 1px solid white;
-  box-shadow: 0 4px 8px 0 white;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 70%;
+  margin: 40px;
   margin-left: 300px;
   margin-right: 300px;
+  padding: 20px;
 }
 .middle h2 {
    font-size: 40px;
@@ -72,13 +74,13 @@
 }
 
 .input-box input {
-    width: 100%;
+    width: 90%;
     height: 40px;
     padding: 0 10px;
     margin-bottom: 25px;
 }
 .textarea-section textarea {
-    width: 100%;
+    width: 90%;
 }
 .button-section {
     display: flex;
